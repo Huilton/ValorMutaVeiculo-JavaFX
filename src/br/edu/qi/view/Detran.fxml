@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="523.0" prefWidth="773.0" stylesheets="@../../../../Style/CssBotoes.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.qi.controller.DetranViewController">
+    <children>
+        <Label fx:id="lblProprietario" layoutX="121.0" layoutY="56.0" text="Nro Placa" />
+        <TextField fx:id="txtPlaca" layoutX="189.0" layoutY="53.0" />
+        <Label fx:id="lblModelo" layoutX="147.0" layoutY="91.0" prefHeight="17.0" prefWidth="25.0" text="Data" />
+        <Label fx:id="lblAno" layoutX="60.0" layoutY="232.0" text="Velocidade do Veiculo" />
+        <TextField fx:id="txtData" layoutX="190.0" layoutY="88.0" />
+        <TextField fx:id="txtVelocidadeVeiculo" layoutX="192.0" layoutY="228.0" />
+        <TableView fx:id="tvLocacao" layoutX="39.0" layoutY="294.0" prefHeight="164.0" prefWidth="673.0" AnchorPane.bottomAnchor="191.0" AnchorPane.leftAnchor="39.0" AnchorPane.rightAnchor="61.0" AnchorPane.topAnchor="294.0">
+            <columns>
+                <TableColumn fx:id="colunmPlaca" prefWidth="158.0" text="Placa" />
+                <TableColumn fx:id="colunmData" prefWidth="172.0" text="Data" />
+                <TableColumn fx:id="colunmHorario" prefWidth="177.0" text="Horário" />
+                <TableColumn fx:id="colunmLocal" prefWidth="165.0" text="Local" />
+            </columns>
+        </TableView>
+        <Label fx:id="lblProprietario1" layoutX="48.0" layoutY="20.0" text="Dados do Carro" />
+        <Separator layoutX="48.0" layoutY="44.0" prefHeight="0.0" prefWidth="583.0" />
+        <TextField fx:id="txtVelocidadePermitaKm" layoutX="190.0" layoutY="191.0" />
+        <Label fx:id="lblValorVeiculo" layoutX="39.0" layoutY="195.0" text="Velocidade Permitida (KM)" />
+        <TextField fx:id="txtHorario" layoutX="190.0" layoutY="157.0" />
+        <Label fx:id="lblkm" layoutX="135.0" layoutY="157.0" text="Horário" />
+        <Button fx:id="btSalvar" layoutX="82.0" layoutY="354.0" mnemonicParsing="false" onAction="#handSalvar" prefHeight="25.0" prefWidth="100.0" styleClass="buttonSalvar" stylesheets="@../../../../Style/CssBotoes.css" text="Salvar" />
+        <Button fx:id="btLimpar" layoutX="217.0" layoutY="354.0" mnemonicParsing="false" onAction="#handLimpar" prefHeight="25.0" prefWidth="100.0" styleClass="buttonLimpar" stylesheets="@../../../../Style/CssBotoes.css" text="Limpar" />
+        <Button fx:id="btRemover" layoutX="337.0" layoutY="354.0" mnemonicParsing="false" onAction="#handRemover" prefHeight="25.0" prefWidth="100.0" styleClass="buttonRemover" stylesheets="@../../../../Style/CssBotoes.css" text="Remover" />
+      <TextField fx:id="txtLocal" layoutX="190.0" layoutY="121.0" />
+      <Label fx:id="lblModelo1" layoutX="148.0" layoutY="124.0" prefHeight="17.0" prefWidth="40.0" text="Local" />
+      
+    </children>
+</AnchorPane>

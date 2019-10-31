@@ -1,0 +1,54 @@
+@charset"iso-8859-1";
+.hbox{
+
+}
+.buttonSalvar{
+    -fx-font-family:"Arial";
+    -fx-font-size: 12px;  
+    -fx-background-color: #cccccc; 
+    -fx-background-image: url("../Images/Salvar.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: -1,0,0,0;
+    -fx-text-alignment: right;
+    -fx-border-color: #000;
+    -fx-border-radius: 5px;
+
+}
+.buttonRemover{
+    -fx-font-family:"Arial";
+    -fx-font-size: 12px;  
+    -fx-background-color:#ff3300 ;
+    -fx-text-alignment: left;
+    -fx-background-image: url("../Images/Delete.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: -1,0,0,0;
+    -fx-border-color: #000;
+    -fx-border-radius: 5px;
+
+
+}
+.buttonConsultar{
+    -fx-font-family:"Arial";
+    -fx-font-size: 12px;  
+    -fx-background-color: #cccccc;
+    -fx-background-image: url("../Images/Pesquisar.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 5,0,0,0;
+    -fx-text-alignment: right;
+    -fx-border-color: #000;
+    -fx-border-radius: 5px;
+
+}
+
+.buttonLimpar{
+    -fx-font-family:"Arial";
+    -fx-font-size: 12px;  
+    -fx-background-color:#cccccc ;
+    -fx-background-image: url("../Images/Clear.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: -1,0,0,0;
+    -fx-text-alignment: left;
+    -fx-border-color: #000;
+    -fx-border-radius: 5px;
+}
+
